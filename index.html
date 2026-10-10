@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Post crud without generic</title>
+    
+
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 ">
+
+        <div class="card my-card h-100">
+            <div class="card-header text-center bg-info "><b>Craete Post</b></div>
+            <div class="card-body">
+            <form id="form" class="form">
+                
+                
+                <div class="form-group">
+                    <label for="City">City Name</label>
+                    <input type="text" id="City" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Description</label>
+                    <textarea class="form-control" rows="3" id="Description"></textarea>
+                </div>
+
+
+                 <div class="form-group">
+                    <label for="Image">City Image</label>
+                    <input type="text" id="Image" class="form-control">
+                </div>
+               
+
+                
+                <button type="submit" class="btn btn-sm btn-block btn-primary" id="AddBtn">Add Post</button>
+                <button type="button" class="btn btn-sm btn-block btn-primary d-none" id="updateBtn">Updtae Post</button>
+            </form>
+        </div>
+</div>
+    </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+
+    <div class="row mt-5" id="albumdata">
+        <!-- <div class="col-md-4 mb-4">
+            <div class="card mb-5">
+                <div class="card-header text-center bg-dark text-white">PUNE</div>
+                <div class="card-body">
+                    <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio quo similique praesentium rem excepturi eius facilis perferendis officia in laborum atque nisi nostrum, a ipsa reprehenderit debitis dicta impedit!</p>
+                    <img src="https://cabbazar.com/blog/content/images/2025/08/PUNE-blog.jpg" alt="pune">
+                
+                </div>
+                <div class="card-footer d-flex justify-content-between ">
+                    
+                    <button type="button" class="btn btn-sm btn-primary">Edit</button>
+                <button type="button" class="btn btn-sm btn-danger" >Delete</button>
+            
+                </div>
+            </div>  -->
+
+        </div>
+        </div>
+
+         <div class="spinner d-none" id="spinner">
+            <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+         </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
