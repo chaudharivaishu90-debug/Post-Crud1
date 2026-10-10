@@ -20,4 +20,10 @@ img{
         background-color;rgb(255,  255, 255, .8);
         display:flex;
         justify-content:center;
-        align-items:center;}
+        align-items:center;
+    }
+
+    strong{
+        font-size: 25px;
+        color: aliceblue;
+    }
